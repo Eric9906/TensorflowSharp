@@ -1,0 +1,2 @@
+# TensorflowSharp
+在.NET平台借助于tensorflowsharp包实现对tensorflow模型的加载与再次利用
