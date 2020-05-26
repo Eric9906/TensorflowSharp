@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{C33A0518-FC6C-4E41-BC08-DB541163E07E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNB_TensorflowSharp", "DNB_TensorflowSharp\DNB_TensorflowSharp.csproj", "{C2858DCD-7A94-4E89-9873-DE77275B328E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C33A0518-FC6C-4E41-BC08-DB541163E07E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C33A0518-FC6C-4E41-BC08-DB541163E07E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C33A0518-FC6C-4E41-BC08-DB541163E07E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2858DCD-7A94-4E89-9873-DE77275B328E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2858DCD-7A94-4E89-9873-DE77275B328E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2858DCD-7A94-4E89-9873-DE77275B328E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2858DCD-7A94-4E89-9873-DE77275B328E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
