@@ -41,7 +41,7 @@ namespace ConsoleApp1
                     Console.WriteLine("等待输入……");
                     string str = Console.ReadLine();
                     //string str = "379,68,610.8,45,27486,410,45	797,415,0	,399,	24,40,17,	1	,1	,1	,110";
-                    string[] strarray = str.Split(',');
+                    string[] strarray = str.Split(' '); 
                     double[,] dou = new double[1, 18];
                     for (int i = 0; i < strarray.Length; i++)
                     {
