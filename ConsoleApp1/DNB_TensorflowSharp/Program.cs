@@ -57,9 +57,6 @@ namespace DNB_TensorflowSharp
                     //将double类型的数组转化为float类型
                     float[,] floatitem = ConvertDoubleArrayTofloat(dou);
                     var inputs = new float[][,] { floatitem };
-
-                    //定义空的输入张量
-
                     //进行数据的归一化  （data-mean）/std
                     var input0 = inputs[0];
                     for (int i = 0; i < 18; i++)
